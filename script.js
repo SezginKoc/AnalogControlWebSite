@@ -22,7 +22,7 @@ const initializeWebsite = () => {
     emailDiv.addEventListener('click', function(e) {
       // Sadece linke tıklanmadıysa mailto aç
       if (!e.target.closest('a')) {
-        window.location.href = 'mailto:info@analogcontrol.com';
+        window.location.href = 'mailto:solution@analogcontrol.io';
       }
     });
   }
